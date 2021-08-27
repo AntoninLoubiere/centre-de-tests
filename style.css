@@ -1,0 +1,42 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    width: 400px;
+    max-width: 80%;
+}
+
+td{
+    border:1px solid black;
+    padding: .3em;
+}
+
+#sommaire, div.tableau, header{
+    padding: 1em;
+    margin: 3% 10% 3% 10%;
+    background-color: whitesmoke;
+    border-radius: .2em;
+    max-width: 80%;
+}
+
+#sommaire:hover, div.tableau:hover, header:hover{
+    box-shadow: 0em 0em 2em grey;
+}
+
+a{
+    color: black;
+}
+
+h2[class=tableau]{
+    text-align: left;
+}
+
+footer{
+    font-size: small;
+    max-width: 80%;
+    margin: auto;
+    font-style: italic;
+}
