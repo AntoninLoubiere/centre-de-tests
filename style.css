@@ -14,7 +14,7 @@ td{
     padding: .3em;
 }
 
-#sommaire, div.tableau, header{
+div.contenu, header{
     padding: 1em;
     margin: 3% 10% 3% 10%;
     background-color: whitesmoke;
@@ -22,16 +22,12 @@ td{
     max-width: 80%;
 }
 
-#sommaire:hover, div.tableau:hover, header:hover{
+div.contenu:hover, header:hover{
     box-shadow: 0em 0em 2em grey;
 }
 
 a{
     color: black;
-}
-
-h2[class=tableau]{
-    text-align: left;
 }
 
 footer{
