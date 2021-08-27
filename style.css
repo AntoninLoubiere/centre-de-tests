@@ -3,6 +3,11 @@ body{
     text-align: center;
 }
 
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
 table{
     border-collapse: collapse;
     width: 400px;
@@ -18,19 +23,29 @@ div.contenu, header{
     padding: 1em;
     margin: 3% 10% 3% 10%;
     background-color: whitesmoke;
+    border: .1em teal solid;
     border-radius: .2em;
     max-width: 80%;
 }
 
-div.contenu:hover, header:hover{
-    box-shadow: 0em 0em 2em grey;
-}
+/*div.contenu{
+    display: flex;
+}*/
+
+/*div.contenu:hover, header:hover{
+    box-shadow: 0em 1em 2em cornflowerblue;
+}*/
 
 a{
     color: black;
 }
 
+a:hover{
+    color: orange;
+}
+
 footer{
+    color: teal;
     font-size: small;
     max-width: 80%;
     margin: auto;
