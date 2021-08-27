@@ -25,7 +25,7 @@ div.contenu, header{
     background-color: whitesmoke;
     border: .1em teal solid;
     border-radius: .2em;
-    max-width: 80%;
+    max-width: 90%;
 }
 
 /*div.contenu{
@@ -35,6 +35,10 @@ div.contenu, header{
 /*div.contenu:hover, header:hover{
     box-shadow: 0em 1em 2em cornflowerblue;
 }*/
+
+video, audio{
+    max-width: 80%;
+}
 
 a{
     color: black;
