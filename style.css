@@ -4,8 +4,11 @@ body{
 }
 
 nav{
+    background-color: teal;
+    border-radius: .2em;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 table{
